@@ -1,0 +1,40 @@
+.cardsContainer {
+  width: 100%;
+  height: 100%;
+  background-image: url("../../img/LandingPage.jpg");
+  padding: 0 0 2rem 0;
+}
+.filterContainer {
+  background-color: rgba(0, 0, 0, 0);
+  display: flex;
+  width: 100%;
+  height: 4vh;
+  padding: 0 0 1rem 0;
+  justify-content: flex-end;
+  align-items: stretch;
+}
+
+.cardsBox {
+  display: flex;
+  flex-wrap: wrap;
+  height: 85%;
+  justify-content: space-evenly;
+  margin: 1rem 0;
+}
+
+.filterAndOrder {
+  margin-left: 10rem;
+  border-radius: 10px;
+  border: none;
+  background-color: #003d5b;
+  color: white;
+  font-size: large;
+  cursor: pointer;
+}
+.filterAndOrder:last-of-type {
+  margin-right: 0.8rem;
+}
+
+.filterAndOrder:first-of-type {
+  margin-left: 0.8rem;
+}

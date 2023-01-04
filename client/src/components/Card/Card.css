@@ -1,0 +1,27 @@
+.cardContainer {
+  background: #393b549b;
+  width: 17vw;
+  height: 17rem;
+  margin: 1px 0 2px 0;
+  display: flex;
+  font-size: large;
+  color: white;
+  flex-direction: column;
+  justify-content: space-evenly;
+  text-align: center;
+  align-items: center;
+  padding-bottom: 16px;
+  border-radius: 10px;
+  box-shadow: 15px 15px 20px #bebebe,
+              -15px -15px 20px #ffffff2e;
+}
+
+
+
+.cardImg {
+  width: 30%;
+}
+
+.content {
+  margin: 1rem 0 0 0;
+}
